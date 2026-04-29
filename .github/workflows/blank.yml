@@ -1,0 +1,10 @@
+            - nome: Primeira interação
+  utiliza: actions/first-interaction@v1.3.0
+  com:
+    # Token para o repositório. Pode ser passado usando {{ secrets.GITHUB_TOKEN }}
+    token de repositório:
+    # Comentário para publicar na primeira edição de um indivíduo
+    mensagem-do-problema: # opcional
+    # Comentário para publicar na primeira solicitação de pull request de um indivíduo
+    pr-message: # opcional
+          
